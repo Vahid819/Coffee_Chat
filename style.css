@@ -484,18 +484,6 @@ a:hover:after {
   margin: 0px auto;
 }
 
-.buttons{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 30px;
-}
-
-.buttons :last-child{
-  background-color: #ace1af;
-}
-
 .featurch{
   width: 100%;
   height: 75%;
@@ -513,16 +501,16 @@ a:hover:after {
 }
 
 .mobile_work .circle{
-  width: 30vw;
-  height: 60vh;
+  width: 33vw;
+  height: 66vh;
   background-color: #ace1af;
   border: 1px solid #cbf1f5;
   position: absolute;
   border-radius: 50%;
 }
 .mobile_work .circle2{
-  width: 10vw;
-  height: 20vh;
+  width: 13vw;
+  height: 26vh;
   background-color: #ace1af;
   border: 1px solid #cbf1f5;
   position: absolute;
@@ -531,8 +519,8 @@ a:hover:after {
 }
 
 .mobile_work .circle1{
-  width: 20vw;
-  height: 40vh;
+  width: 23vw;
+    height: 46vh;
   background-color: #ace1af;
   border: 1px solid #cbf1f5;
   position: absolute;
