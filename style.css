@@ -568,7 +568,8 @@ a:hover:after {
 
 .mobile_work .chat{
   width: 27vw;
-  height: 35vh;
+  height: 37vh;
   /* top: 143px; */
+  object-fit: fill;
 }
 
