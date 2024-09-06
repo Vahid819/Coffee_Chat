@@ -479,10 +479,12 @@ a:hover:after {
 }
 
 .app_work h2{
-  width: 60%;
+  width: 70%;
   text-align: center;
   margin: 0px auto;
 }
+
+/* Featurch Section */
 
 .featurch{
   width: 100%;
@@ -528,14 +530,6 @@ a:hover:after {
   /* z-index: 2; */
 }
 
-.featurch_section{
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .mobile_view{
   width: 50%;
   height: 100%;  
@@ -561,3 +555,78 @@ a:hover:after {
   object-fit: fill;
 }
 
+.featurch_section{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.featurch_section .grop_chat{
+  width: 44%;
+  height: 25vh;
+  /* background-color: aqua; */
+  margin: 20px;
+}
+
+.grop_chat .img{
+  width: 100px;
+  text-align: center;
+  box-shadow: 0 0 5px 0;
+  backdrop-filter: blur(10px);
+  border: 1px solid black;
+  border-radius: 20px;
+  z-index: 99;
+  /* position: relative; */
+  margin-left: 20px;
+}
+
+.grop_chat img{
+  width: 90px;
+  /* margin-left: 20px; */
+}
+
+.grop_chat h1, .grop_info{
+  margin-left: 20px;
+}
+
+.featurch_section .chat_room{
+  width: 44%;
+  height: 25vh;
+  /* background-color: aqua; */
+  margin: 20px;
+}
+
+.chat_room .img{
+  width: 100px;
+  height: 100px;
+  /* text-align: center;   */
+  box-shadow: 0 0 5px 0;
+  backdrop-filter: blur(10px);
+  border: 1px solid black;
+  border-radius: 20px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  margin-left: 20px;
+}
+
+.chat_room img{
+  width: 70px;
+  /* margin-left: 20px; */
+}
+
+.chat_room h1, .room_info{
+  margin-left: 20px;
+}
+
+.featurch_section .file_sharing{
+  width: 44%;
+  height: 25vh;
+  background-color: aqua;
+  margin: 20px;
+}
