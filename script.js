@@ -127,3 +127,8 @@ function slides_text(i) {
 }
 
 // setInterval(()=>{console.log("va")})
+
+window.scrollTo({
+  top:100,
+  behavior:"smooth",
+})
