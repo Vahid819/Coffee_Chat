@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
+  background-color: #cbf1f5;
 }
 body {
   background-color: black;
@@ -179,6 +180,7 @@ a:hover:after {
   width: 40vw;
   height: 45vh;
   position: absolute;
+  background-color: transparent;
 }
 
 .app_info {
@@ -332,6 +334,7 @@ a:hover:after {
   width: 30vw;
   position: absolute;
   height: 36vh;
+  background-color: transparent;
   z-index: 99;
 }
 
@@ -546,6 +549,7 @@ a:hover:after {
 .mobile_work .laptop{
   width: 35vw;
   z-index: 10;
+  background-color: transparent;
 }
 
 .mobile_work .chat{
@@ -602,7 +606,7 @@ a:hover:after {
 .chat_room .img{
   width: 100px;
   height: 100px;
-  /* text-align: center;   */
+  /* text-align: center; */
   box-shadow: 0 0 5px 0;
   backdrop-filter: blur(10px);
   border: 1px solid black;
@@ -627,6 +631,40 @@ a:hover:after {
 .featurch_section .file_sharing{
   width: 44%;
   height: 25vh;
-  background-color: aqua;
+  /* background-color: aqua; */
   margin: 20px;
+}
+
+.featurch_section .img{
+  width: 100px;
+  height: 100px;
+  /* text-align: center; */
+  box-shadow: 0 0 5px 0;
+  backdrop-filter: blur(10px);
+  border: 1px solid black;
+  border-radius: 20px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  margin-left: 20px;
+}
+
+.featurch_section img{
+  width: 70px;
+  /* margin-left: 20px; */
+}
+
+.featurch_section h1, .file_info{
+  margin-left: 20px;
+  /* text-align: justify; */
+}
+
+/* For create account */
+
+.meet_app{
+  width: 100%;
+  height: 60vh;
+  background-color:transparent ;
 }
