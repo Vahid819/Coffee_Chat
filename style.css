@@ -33,7 +33,7 @@ body {
   z-index: 99;
   backdrop-filter: blur(10px);
   /* background: inherit; */
-  box-shadow: 0 0 5px 0 ;
+  box-shadow: 0 0 5px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -66,12 +66,12 @@ a {
 a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: -2px;
-  content: "";  
+  content: "";
   display: block;
   height: 2px;
   left: 50%;
   position: absolute;
-  background: black ;
+  background: black;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -216,7 +216,7 @@ a:hover:after {
 }
 
 .one {
-  cursor: pointer;  
+  cursor: pointer;
   width: 8vw;
   height: 14vh;
   background-color: #e3fdfd;
@@ -253,7 +253,7 @@ a:hover:after {
 }
 
 .three {
-  cursor: pointer;  
+  cursor: pointer;
   width: 8vw;
   height: 14vh;
   background-color: #e3fdfd;
@@ -264,7 +264,7 @@ a:hover:after {
   font-size: 70px;
 }
 
-.thred{
+.thred {
   position: relative;
   width: 80%;
   margin: auto;
@@ -353,7 +353,7 @@ a:hover:after {
   }
 }
 
-.second{
+.second {
   position: relative;
   width: 80%;
   margin: auto;
@@ -369,7 +369,7 @@ a:hover:after {
   /* background-color: aquamarine; */
 }
 .two {
-  cursor: pointer;  
+  cursor: pointer;
   width: 8vw;
   height: 14vh;
   background-color: #e3fdfd;
@@ -397,7 +397,7 @@ a:hover:after {
   flex-wrap: wrap;
 }
 
-.fourth{
+.fourth {
   position: relative;
   width: 80%;
   margin: auto;
@@ -406,7 +406,7 @@ a:hover:after {
 }
 
 .four {
-  cursor: pointer;  
+  cursor: pointer;
   width: 8vw;
   height: 14vh;
   background-color: #e3fdfd;
@@ -435,43 +435,42 @@ a:hover:after {
   flex-wrap: wrap;
 }
 
-.slieds_animation{
+.slieds_animation {
   animation: slieds 2.7s ease-in-out;
   left: 0px;
 }
 
-
 @keyframes slieds {
-  0%{
+  0% {
     left: 360px;
   }
-  100%{
+  100% {
     left: 0px;
   }
 }
 
-.opposite_slied{
+.opposite_slied {
   animation: oppositeslied 2.7s ease-in-out;
   left: 0px;
 }
 
 @keyframes oppositeslied {
-  0%{
+  0% {
     left: -380px;
   }
 
-  100%{
+  100% {
     left: 0px;
   }
 }
 
-.app_featurch{
+.app_featurch {
   width: 100%;
   height: 100vh;
   background-color: #cbf1f5;
 }
 
-.app_work{
+.app_work {
   width: 100%;
   height: auto;
   display: flex;
@@ -480,12 +479,12 @@ a:hover:after {
   flex-direction: column;
 }
 
-.app_work h1{
+.app_work h1 {
   font-size: 50px;
   text-align: center;
 }
 
-.app_work h2{
+.app_work h2 {
   width: 70%;
   text-align: center;
   margin: 0px auto;
@@ -493,14 +492,14 @@ a:hover:after {
 
 /* Featurch Section */
 
-.featurch{
+.featurch {
   width: 100%;
   height: 75%;
   display: flex;
   justify-content: space-evenly;
 }
 
-.mobile_work{
+.mobile_work {
   width: 50%;
   height: 100%;
   display: flex;
@@ -509,7 +508,7 @@ a:hover:after {
   position: relative;
 }
 
-.mobile_work .circle{
+.mobile_work .circle {
   width: 33vw;
   height: 66vh;
   background-color: #ace1af;
@@ -517,7 +516,7 @@ a:hover:after {
   position: absolute;
   border-radius: 50%;
 }
-.mobile_work .circle2{
+.mobile_work .circle2 {
   width: 13vw;
   height: 26vh;
   background-color: #ace1af;
@@ -527,9 +526,9 @@ a:hover:after {
   /* z-index: 3; */
 }
 
-.mobile_work .circle1{
+.mobile_work .circle1 {
   width: 23vw;
-    height: 46vh;
+  height: 46vh;
   background-color: #ace1af;
   border: 1px solid #cbf1f5;
   position: absolute;
@@ -537,33 +536,33 @@ a:hover:after {
   /* z-index: 2; */
 }
 
-.mobile_view{
+.mobile_view {
   width: 50%;
-  height: 100%;  
+  height: 100%;
   display: flex;
   /* position: absolute; */
   left: 18;
   top: 75px;
 }
 
-.mobile_work img{
+.mobile_work img {
   position: absolute;
 }
 
-.mobile_work .laptop{
+.mobile_work .laptop {
   width: 35vw;
   z-index: 10;
   background-color: transparent;
 }
 
-.mobile_work .chat{
+.mobile_work .chat {
   width: 27vw;
   height: 37vh;
   /* top: 143px; */
   object-fit: fill;
 }
 
-.featurch_section{
+.featurch_section {
   width: 50%;
   height: 100%;
   display: flex;
@@ -572,14 +571,14 @@ a:hover:after {
   align-items: center;
 }
 
-.featurch_section .grop_chat{
+.featurch_section .grop_chat {
   width: 44%;
   height: 25vh;
   /* background-color: aqua; */
   margin: 20px;
 }
 
-.grop_chat .img{
+.grop_chat .img {
   width: 100px;
   text-align: center;
   box-shadow: 0 0 5px 0;
@@ -591,23 +590,24 @@ a:hover:after {
   margin-left: 20px;
 }
 
-.grop_chat img{
+.grop_chat img {
   width: 90px;
   /* margin-left: 20px; */
 }
 
-.grop_chat h1, .grop_info{
+.grop_chat h1,
+.grop_info {
   margin-left: 20px;
 }
 
-.featurch_section .chat_room{
+.featurch_section .chat_room {
   width: 44%;
   height: 25vh;
   /* background-color: aqua; */
   margin: 20px;
 }
 
-.chat_room .img{
+.chat_room .img {
   width: 100px;
   height: 100px;
   /* text-align: center; */
@@ -623,23 +623,24 @@ a:hover:after {
   margin-left: 20px;
 }
 
-.chat_room img{
+.chat_room img {
   width: 70px;
   /* margin-left: 20px; */
 }
 
-.chat_room h1, .room_info{
+.chat_room h1,
+.room_info {
   margin-left: 20px;
 }
 
-.featurch_section .file_sharing{
+.featurch_section .file_sharing {
   width: 44%;
   height: 25vh;
   /* background-color: aqua; */
   margin: 20px;
 }
 
-.featurch_section .img{
+.featurch_section .img {
   width: 100px;
   height: 100px;
   /* text-align: center; */
@@ -655,28 +656,29 @@ a:hover:after {
   margin-left: 20px;
 }
 
-.featurch_section img{
+.featurch_section img {
   width: 70px;
   /* margin-left: 20px; */
 }
 
-.featurch_section h1, .file_info{
+.featurch_section h1,
+.file_info {
   margin-left: 20px;
   /* text-align: justify; */
 }
 
 /* For create account */
 
-.meet_app{
+.meet_app {
   width: 100%;
   height: 60vh;
-  background-color:#cbf1f5 ;
+  background-color: #cbf1f5;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.meet_app .app_contenar{
+.meet_app .app_contenar {
   width: 80%;
   height: 80%;
   background-color: #b0ebb4;
@@ -684,7 +686,7 @@ a:hover:after {
   display: flex;
 }
 
-.sign_in{
+.sign_in {
   width: 55%;
   height: 100%;
   /* background-color: aqua; */
@@ -694,31 +696,34 @@ a:hover:after {
   gap: 20px;
 }
 
-.sign_in h1{
+.sign_in h1 {
   margin-top: 40px;
   margin-left: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-size-adjust: auto;
+  color: #ace1af;
 }
 
-.sign_in .instruction{
+.sign_in .instruction {
   /* margin-left: 50px; */
   margin: 0px 30px;
   font-size: 18px;
   /* text-align: justify; */
-  
 }
 
-.sign_in .button-8{
+.sign_in .button-8 {
   margin-left: 30px;
 }
 
-.images{
+.images {
   width: 45%;
   height: 100%;
   position: relative;
   overflow: hidden;
 }
 
-.images .laptop1{
+.images .laptop1 {
   width: 22vw;
   bottom: 180px;
   position: absolute;
@@ -726,7 +731,7 @@ a:hover:after {
   right: 0px;
 }
 
-.images .laptop2{
+.images .laptop2 {
   width: 22vw;
   bottom: -15px;
   position: absolute;
@@ -734,30 +739,29 @@ a:hover:after {
   /* right: 0px; */
 }
 
-.up_img{
+.up_img {
   animation: img_up 1s ease-in-out 1;
   bottom: -15px;
 }
 
 @keyframes img_up {
-  0%{
+  0% {
     bottom: -195px;
   }
-  100%{
+  100% {
     bottom: -15px;
   }
-
 }
 
-.down_img{
+.down_img {
   animation: img_down 1s ease-in-out 1;
 }
 
 @keyframes img_down {
-  0%{
+  0% {
     bottom: 358px;
   }
-  100%{
+  100% {
     bottom: 180px;
   }
 }
