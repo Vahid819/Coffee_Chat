@@ -135,6 +135,7 @@ window.addEventListener("scroll", () => {
     document
       .querySelector(".second_instructions")
       .classList.add("slieds_animation");
+    image.style.display = "block"
     // document.querySelector(".navbar").style.backgroundColor = "red"
   }
 });
@@ -143,5 +144,7 @@ window.addEventListener("scroll", ()=>{
   if(window.scrollY >=1400){
     document.querySelector(".laptop2").classList.add("up_img")
     document.querySelector(".laptop1").classList.add("down_img")
+    document.querySelector(".laptop1").style.display ="block"
+    document.querySelector(".laptop2").style.display = "block"
   }
 })

@@ -336,12 +336,15 @@ a:hover:after {
   height: 36vh;
   background-color: transparent;
   z-index: 99;
-  transform: scale(1);
+  /* transform: scale(0); */
+  display: none;
 }
 
 .scale_animation {
   animation: scale_image 2.7s ease-in-out 1;
-  transform: scale(1);
+  /* transform: scale(1); */
+  /* display: block; */
+  /* scale: 1; */
 }
 
 @keyframes scale_image {
@@ -729,6 +732,7 @@ a:hover:after {
   position: absolute;
   rotate: 180deg;
   right: 0px;
+  display: none;
 }
 
 .images .laptop2 {
@@ -736,12 +740,12 @@ a:hover:after {
   bottom: -15px;
   position: absolute;
   rotate: 0deg;
+  display: none;
   /* right: 0px; */
 }
 
 .up_img {
   animation: img_up 1s ease-in-out 1;
-  bottom: -15px;
 }
 
 @keyframes img_up {
