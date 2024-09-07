@@ -10,18 +10,6 @@ window.onload = () => {
 
 let image = document.querySelector("#laptop_image");
 
-window.addEventListener("scroll", () => {
-  image.classList.add("scale_animation");
-  document.querySelector(".frist_instruction").classList.add("opposite_slied");
-  document.querySelector(".three_instruction").classList.add("opposite_slied");
-  document
-    .querySelector(".four_instructions")
-    .classList.add("slieds_animation");
-  document
-    .querySelector(".second_instructions")
-    .classList.add("slieds_animation");
-});
-
 // const [color, setColor] = useState(false)
 let color = false;
 let fritst_div = document.querySelector(".one");
@@ -31,9 +19,9 @@ let fourth_div = document.querySelector(".four");
 fritst_div.addEventListener("click", () => {
   if (color == false) {
     fritst_div.style.backgroundColor = "#ace1af";
-    second_div.style.backgroundColor = "#e3fdfd"
-    threed_div.style.backgroundColor = "#e3fdfd"
-    fourth_div.style.backgroundColor = "#e3fdfd"
+    second_div.style.backgroundColor = "#e3fdfd";
+    threed_div.style.backgroundColor = "#e3fdfd";
+    fourth_div.style.backgroundColor = "#e3fdfd";
     fritst_div.style.transition = "0.7s";
     color = true;
   } else {
@@ -112,16 +100,15 @@ function slides_text(i) {
     //   console.log(i);
   } else if (i >= 2 && i <= 4) {
     // console.log("aksa")
-    if(i!=4){
-    document.querySelector(".sub_meet").style.marginTop = "-75px";
-    // document.querySelector(".sub_meet").style.transition =
-    // "marginTop 1.7s easy-in-out";
-  }else{
-    document.querySelector(".sub_meet").style.marginTop = "0px";
-    // document.querySelector(".sub_meet").style.transition =
-    // "all 1.7s easy-in-out";
-
-  }
+    if (i != 4) {
+      document.querySelector(".sub_meet").style.marginTop = "-75px";
+      // document.querySelector(".sub_meet").style.transition =
+      // "marginTop 1.7s easy-in-out";
+    } else {
+      document.querySelector(".sub_meet").style.marginTop = "0px";
+      // document.querySelector(".sub_meet").style.transition =
+      // "all 1.7s easy-in-out";
+    }
     //   console.log(i);
   }
 }
@@ -129,6 +116,32 @@ function slides_text(i) {
 // setInterval(()=>{console.log("va")})
 
 window.scrollTo({
-  top:100,
-  behavior:"smooth",
+  top: 100,
+  behavior: "smooth",
+});
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY >= 1200) {
+    image.classList.add("scale_animation");
+    document
+      .querySelector(".frist_instruction")
+      .classList.add("opposite_slied");
+    document
+      .querySelector(".three_instruction")
+      .classList.add("opposite_slied");
+    document
+      .querySelector(".four_instructions")
+      .classList.add("slieds_animation");
+    document
+      .querySelector(".second_instructions")
+      .classList.add("slieds_animation");
+    // document.querySelector(".navbar").style.backgroundColor = "red"
+  }
+});
+
+window.addEventListener("scroll", ()=>{
+  if(window.scrollY >=1400){
+    document.querySelector(".laptop2").classList.add("up_img")
+    document.querySelector(".laptop1").classList.add("down_img")
+  }
 })

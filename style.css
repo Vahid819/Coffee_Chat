@@ -239,7 +239,7 @@ a:hover:after {
   width: 100%;
   position: absolute;
   margin: auto;
-  /* left: -380px; */
+  left: -380px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -276,7 +276,7 @@ a:hover:after {
   width: 100%;
   position: absolute;
   margin: auto;
-  /* left: -380px; */
+  left: -380px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -336,10 +336,12 @@ a:hover:after {
   height: 36vh;
   background-color: transparent;
   z-index: 99;
+  transform: scale(1);
 }
 
 .scale_animation {
   animation: scale_image 2.7s ease-in-out 1;
+  transform: scale(1);
 }
 
 @keyframes scale_image {
@@ -382,7 +384,7 @@ a:hover:after {
   width: 100%;
   position: absolute;
   margin: auto;
-  /* left: 360px; */
+  left: 360px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -419,7 +421,7 @@ a:hover:after {
   width: 100%;
   position: absolute;
   margin: auto;
-  /* left: 360px; */
+  left: 360px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -435,6 +437,7 @@ a:hover:after {
 
 .slieds_animation{
   animation: slieds 2.7s ease-in-out;
+  left: 0px;
 }
 
 
@@ -449,6 +452,7 @@ a:hover:after {
 
 .opposite_slied{
   animation: oppositeslied 2.7s ease-in-out;
+  left: 0px;
 }
 
 @keyframes oppositeslied {
@@ -716,7 +720,7 @@ a:hover:after {
 
 .images .laptop1{
   width: 22vw;
-  bottom: 184px;
+  bottom: 180px;
   position: absolute;
   rotate: 180deg;
   right: 0px;
@@ -724,8 +728,36 @@ a:hover:after {
 
 .images .laptop2{
   width: 22vw;
-  bottom: -18px;
+  bottom: -15px;
   position: absolute;
   rotate: 0deg;
   /* right: 0px; */
+}
+
+.up_img{
+  animation: img_up 1s ease-in-out 1;
+  bottom: -15px;
+}
+
+@keyframes img_up {
+  0%{
+    bottom: -195px;
+  }
+  100%{
+    bottom: -15px;
+  }
+
+}
+
+.down_img{
+  animation: img_down 1s ease-in-out 1;
+}
+
+@keyframes img_down {
+  0%{
+    bottom: 358px;
+  }
+  100%{
+    bottom: 180px;
+  }
 }
