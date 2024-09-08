@@ -30,6 +30,7 @@ body {
   height: 10vh;
   /* background-color: #e3fdfd; */
   position: fixed;
+  text-transform: uppercase;
   z-index: 99;
   backdrop-filter: blur(10px);
   /* background: inherit; */
@@ -68,10 +69,10 @@ a:after {
   bottom: -2px;
   content: "";
   display: block;
-  height: 2px;
+  height: 3px;
   left: 50%;
   position: absolute;
-  background: black;
+  background: #ace1af;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -101,6 +102,10 @@ a:hover:after {
 }
 
 /* top main Background contenar */
+.main_contenar{
+  display: none;
+}
+
 .background_contenar {
   width: 100%;
   height: 90vh;
@@ -772,26 +777,84 @@ a:hover:after {
 
 .footer{
   width: 100%;
-  height: 40vh;
+  height: 60vh;
   background-color: #2B2B2B;
   display: flex;
+  /* justify-content: space-around; */
+  flex-direction: column;
+}
+
+.services_Section{
+  display: flex;
   justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  height: 80%;
+  border-bottom: 1px solid white;
+  padding-bottom: 80px;
 }
 
 .web_name{
   width: 25%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   /* background-color: aqua; */
+}
+
+.web_name .logo{
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.web_name .logo img{
+  width: 100px;
+  /* margin-left: 30px; */
+}
+
+.web_name .discription{
+  color: white;
+  margin-left: 60px;
+  margin-top: 10px;
 }
 
 .services{
-  width: 25%;
+  width: 50%;
   height: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: aliceblue; */
   /* background-color: aqua; */
 }
 
-.socialmeida{
-  width: 25%;
+.services1,.services2, .services3{
+  width: 30%;
   height: 100%;
+  /* background-color: aqua; */
+  color: white;
+  text-align: center;
+  /* margin-top: 80px; */
+  /* padding-top: 20px; */
+  text-transform: uppercase;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.services1 h4{
+  margin-top: 50px;
+}
+
+.about a, .security a, .explor a{
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.socialmeida{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  /* background-color: aqua; */
   /* background-color: aqua; */
 }

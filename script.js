@@ -4,13 +4,12 @@ window.onload = () => {
   document.querySelector("body").style.backgroundColor = "white";
   document.querySelector(".loding").style.display = "none";
   document.querySelector(".web_contenar").style.display = "block";
-  document.querySelector(".inverted-3").classList.add("inverted-2");
+  document.querySelector(".main_contenar").style.display = "block"
   document.querySelector("body").style.scrollBehavior = "smooth";
 };
 
 let image = document.querySelector("#laptop_image");
 
-// const [color, setColor] = useState(false)
 let color = false;
 let fritst_div = document.querySelector(".one");
 let second_div = document.querySelector(".two");
@@ -121,7 +120,7 @@ window.scrollTo({
 });
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY >= 1200) {
+  if (window.scrollY >= 1100) {
     image.classList.add("scale_animation");
     document
       .querySelector(".frist_instruction")
@@ -141,7 +140,7 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener("scroll", ()=>{
-  if(window.scrollY >=1400){
+  if(window.scrollY >=1500){
     document.querySelector(".laptop2").classList.add("up_img")
     document.querySelector(".laptop1").classList.add("down_img")
     document.querySelector(".laptop1").style.display ="block"
