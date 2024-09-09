@@ -66,7 +66,7 @@ a {
 
 a:after {
   background: none repeat scroll 0 0 transparent;
-  bottom: -2px;
+  bottom: -3px;
   content: "";
   display: block;
   height: 3px;
@@ -819,7 +819,7 @@ a:hover:after {
 }
 
 .services{
-  width: 50%;
+  width: 60%;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -828,7 +828,7 @@ a:hover:after {
 }
 
 .services1,.services2, .services3{
-  width: 30%;
+  width: 60%;
   height: 100%;
   /* background-color: aqua; */
   color: white;
@@ -842,19 +842,86 @@ a:hover:after {
 }
 
 .services1 h4{
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
-.about a, .security a, .explor a{
+.featurchs a, .security a, .explor a{
   color: white;
   font-size: 17px;
   cursor: pointer;
 }
 
-.socialmeida{
+.services2 h4{
+  margin-top: 100px;
+}
+
+.about a, .Privacy a{
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.services3 h4{
+  margin-top: 100px;
+}
+
+.contact a, .advisories a{
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.socialmedia{
   width: 80%;
   height: 100%;
   margin: auto;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
   /* background-color: aqua; */
   /* background-color: aqua; */
 }
+
+.socialmedia .linkedin{
+  width: 56px;
+  height: 56px;
+  /* background-color: aqua; */
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmedia i{
+  color: #0072b1;
+  font-size: 30px;
+}
+
+.socialmedia .background{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmedia .sub_b:hover > .background{
+  /* background-color: red ; */
+
+  animation: background_change 2.7s ease-in-out ;
+}
+
+@keyframes background_change {
+  0%{
+    transform: scale(0);
+    /* background-color: #ace1af; */
+  }
+  100%{
+    transform: scale(1);
+    background-color: #ace1af;
+  }
+}
+
